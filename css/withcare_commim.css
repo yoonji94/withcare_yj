@@ -1,0 +1,751 @@
+
+body {font-family: 'KOHINanumOTFL'!important; font-size: calc(0.75em + 1vw);
+    overflow-x: hidden; max-width: 1900px; margin: 0 auto;}
+* {margin: 0; padding: 0; box-sizing: border-box;}
+section {margin: 0 auto;}
+div {margin: 0 auto;}
+.br {display: none;}
+
+@font-face {
+  font-family: 'KOHINanumOTFL';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHINanumOTFL.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KOHIBaeumOTF';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.beaWom {font-family:'KOHIBaeumOTF';}
+.MB_br {display: none;}
+/* 화면 높이 예비설정 */
+#top {min-height:1000px; height: auto;}
+#tab-es6 {min-height:1000px; height: auto;}
+#tab-flexbox {min-height:1000px; height: auto;}
+#tab-react {min-height:1000px; height: auto;}
+#tab-angular {min-height:1000px; height: auto; font-family:'KOHINanumOTFL'!important;}
+#tab-other {min-height:850px; height:79vh;}
+
+
+.et-hero-tabs {width: 100%; height:100vh;
+            animation: zoomin 1.5s ease ;}
+
+@keyframes zoomin
+{
+0% {transform: scale(10,10);}
+100% {transform: scale(1,1);}
+}
+
+
+
+
+.et-hero-tabs-container #logo span
+{font-size:calc(1em + 0.5vw);
+display: inline-block;
+width: 10vw;
+font-weight: bold;
+margin-top: 10px;}
+.et-hero-tabs-container #logo>img {display: inline-block; width: 3.4vw; position: absolute; left: 10px;}
+
+
+/* main */
+/* 소개 */
+
+
+#tab-es6 .about_wrap {width:100%;}
+#tab-es6 .about_logo {width: 260px; height: 260px;
+                    margin: 45px auto;
+                    background: url("../img/about_logo.png")no-repeat;
+                    background-size: contain;}
+#tab-es6 .about_txt p {font-size: 25px;
+                      text-align: center;
+                      word-spacing: -15px;}  
+#tab-es6 .about_txt p span {word-spacing: 0px;
+                          font-size: 30px;} 
+
+#tab-es6 .about_sv {
+                  display: flex;
+                  flex-wrap: wrap;
+                  flex-direction: row;
+                  width:75%;
+                  margin: 50px auto;}
+#tab-es6 .about_sv_wrap .p {text-align: center; 
+                    height: 50px;
+                  line-height: 60px;
+                  margin-top: 30px;
+                  }
+#tab-es6 .about_sv .about_sv_box {
+width: 300px; height: 300px;
+background-color:white;
+box-shadow: 5px 5px 10px gray;
+border-radius: 20px;}
+
+#tab-es6 .about_sv .about_sv_box .about_icon 
+{width: 120px;
+height: 120px;
+margin-top: 20px;}
+#tab-es6 .about_sv .about_sv_box .about_icon img {width: 120px;}
+#tab-es6 .about_sv .about_sv_box:nth-child(3) .about_icon{width: 130px;}
+#tab-es6 .about_sv .about_sv_box:nth-child(3) .about_icon img{width: 130px;}
+
+
+
+#tab-es6 .about_sv .about_sv_box p {font-size: 18px; word-spacing: -8px;}
+#tab-es6 .about_sv .about_sv_box p:nth-of-type(1) {margin:23px auto; font-size: 20px; font-weight: bold;}
+
+.about_wrap .about_manager_wrap {
+width: 75%;
+margin:100px auto; }
+
+.about_wrap .about_manager_wrap .MG_txt2 {margin:20px auto;
+                                        font-size: 18px;
+                                        word-spacing: -10px;}
+.about_wrap .about_manager_wrap .about_manager_box
+{display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+width: 100%;}
+
+.about_wrap .about_manager_wrap .about_manager_box .manager_icon
+{width: 300px;
+height: 300px;
+}
+
+.about_wrap .about_manager_wrap .about_manager_box .manager_icon .MG_img
+{width:150px;
+height: 150px;
+margin:30px auto;}
+.about_wrap .about_manager_wrap .about_manager_box .manager_icon .MG_img img
+{width: 150px;}
+
+.about_wrap .about_manager_wrap .about_manager_box .manager_icon .MG_img_txt1
+{font-size: 20px;
+font-weight: bold;
+margin-top: 20px;
+word-spacing: -15px;}
+.about_wrap .about_manager_wrap .about_manager_box .manager_icon .MG_img_txt2
+{font-size: 20px;
+margin-top: 10px;
+word-spacing: -15px;}
+
+
+
+
+/* 서비스 */
+#tab-react {margin: 0 auto;}
+#tab-react .sv_main_txt {margin-top: 80px; }
+#tab-react .sv_main_txt p:nth-child(1) {font-size: 3vw;}
+#tab-react .sv_main_txt p:nth-child(2)
+{font-size: 1.5vw;
+padding-top: 30px;
+word-spacing: -0.9vw;}
+
+
+#tab-react .with_sv {display: flex;
+                  width:85%;
+                  flex-wrap:nowrap;
+                  margin-top:50px;} 
+#tab-react .with_sv .sv_box {width:33%;
+                                  min-width:300px;
+                                  max-height:550px;
+                                  margin: 0 auto;
+                                 }
+
+                                 
+#tab-react .with_sv .sv_box .sv_name
+{width: 100%;
+height: 20px;
+line-height: 25px;
+border-right: 2px solid #000;
+font-size: max(min(18px),1.1vw);
+margin-bottom:20px;
+}
+#tab-react .with_sv .sv_box .border_none {border: none;}
+#tab-react .with_sv .sv_box .img_box {width: 230px;
+                                     height: 230px;
+                                      margin: 0 auto; }                                   
+#tab-react .with_sv .sv_box .sv_img1  {background: url("../img/SV_01.png")no-repeat center center/contain;}
+#tab-react .with_sv .sv_box .sv_img2 {background: url('../img/SV_02.png')no-repeat center center/contain;}
+#tab-react .with_sv .sv_box .sv_img3{background: url('../img/SV_03.png')no-repeat center center/contain;}
+
+#tab-react .with_sv .sv_txt-box {padding-top: 20px; margin: 0 auto; }
+#tab-react .with_sv .sv_txt-box p{font-size: max(min(15px),1vw);
+                                      min-width: 200px;
+                                      max-width: 400px;
+                                      text-align: left;
+                                      word-spacing: -0.5em;
+                                      margin: 0 auto;
+                                      margin-top: 20px;
+                                      padding-left:2.5vw;
+                                      line-height: 30px;
+                                      background: url('../img/ico_chek.png')no-repeat;
+                                      background-position: left 15%;
+                                      background-size: 2vw;}
+#tab-react .with_sv .sv_txt-box p:nth-of-type(3) {background-position: left 10%;}
+
+#tab-react .with_sv .view 
+{display: block; position: relative;
+width: 100px; height:30px; line-height: 34px; 
+font-size: 12px; color: #000; 
+background-size: 10px 10px;
+margin-top: 15px;
+padding-left: 5px;
+margin-left: 70px;
+text-align: center;
+}
+
+
+#tab-react .with_sv .view span{display: inline-block;
+  position: absolute;
+  width: 210px;
+  height: 30px;
+  left: -90px;
+  bottom: 0;
+  background: url("../img/ico_01.png")no-repeat 43% center;}
+
+
+  
+  #tab-react .with_sv .view span:hover {
+  
+  animation-name: hover;
+  animation-duration: 1s;
+  animation-iteration-count:1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hover {
+
+  100% {left:20px;}
+}
+
+
+#tab-react .with_sv .view:hover
+ {background-color: rgba(237, 191, 8, 0.8);
+  color: #fff;
+  border-radius: 15px;
+  animation-name: hover2;
+  animation-duration: 1s;
+  animation-iteration-count:1;
+  animation-fill-mode: forwards;
+  }
+
+  @keyframes hover2 {
+      0% {width: 0;}
+      100% {width:100px;}
+    }
+
+
+
+
+/* 이용방법 */
+
+#tab-angular { position: relative; margin: 0 auto;  background-color:rgb(127, 255, 212,0.4);
+            }
+#tab-angular .h1 {font-size: 25px; 
+                position: absolute;
+                top: 17%;
+                left:11%;
+              z-index: 100;}
+#tab-angular .use_wrap {width: 100%; height: 100%;  margin: 0 auto;}
+
+#tab-angular .use_wrap .use_box {
+                              display: flex;
+                              flex-wrap:nowrap;
+                              flex-direction: row;
+                              margin: 150px auto 0;
+                              background:#fff;
+                              width: 80%;
+                              min-width: 700px;
+                              min-height:700px;
+                              }
+#tab-angular .use_wrap .use_box .use_1 {
+                                      width: 30%;
+                                      min-width:400px;
+                                      height: 300px;
+                                      margin-top: 200px;
+                                      margin-left:15%;
+                                    }
+#tab-angular .use_wrap .use_box .use_1 .use_num {font-size:30px;
+                                              word-spacing: -13px;
+                                              font-weight: bold;
+                                              text-align: left;
+                                              margin-bottom: 30px;}
+
+#tab-angular .use_wrap .use_box .use_1 .use_txt {font-size:25px;
+                                              word-spacing: -13px;
+                                              text-align: left;
+                                              margin-bottom: 30px;}
+
+#tab-angular .use_wrap .use_box .use_1 .app_icon {margin-top: 20px;
+                                              text-align: left;}
+
+#tab-angular .use_wrap .use_box .phone_img {margin-top:30px;
+                                          width: 30%;}
+
+#tab-angular .use_wrap .use_box .phone_img img {width: 100%;
+                                              max-width: 300px;
+                                              min-width: 250px;}
+  /* 슬라이더 */
+.swiper-pagination {position: absolute;
+                  bottom: 10px;
+                  left: 50%;}
+
+.swiper-pagination-bullet{width:8px;height:8px;display:inline-block;border-radius:50%;
+                    margin-left:5px!important;
+                    background:#000;opacity:.2}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+font-family: swiper-icons;
+font-size: var(--swiper-navigation-size);
+text-transform: none !important;
+letter-spacing: 0;
+text-transform: none;
+font-variant: initial;
+line-height: 1;
+color: #000;
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+                      right: 200px!important;}
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+left:200px!important;
+right: auto;}
+
+
+
+
+/* 매니저 모집 */
+#tab-other {max-width: 1920px;}
+#tab-other .manager_box {width:85%;
+                      min-width: 350px;
+                      height:300px;
+                      margin-top: 100px;
+                      background:#66cdaa;}
+#tab-other .manager_box p {margin-top:2.5%;
+                        font-size: max(min(30px),2.5vw);
+                        text-align: center;
+                      color: #fff;}
+#tab-other .manager_box .manager_link {width: 70%;
+                                    height: 100px;
+                                     margin: 0 auto 10px;
+                                    }
+#tab-other .manager_box .manager_link a 
+{display: inline-block;
+margin-top: 20px;
+width: 25%;
+min-width:150px;
+height: 70px;
+line-height:75px;
+color: #000;
+background: rgba(255, 255, 255, 0.8);
+font-size: 20px;
+border-radius: 20px;}
+
+
+  
+
+#tab-other .icon_box {width: 30%; margin-top: 20px;}
+#tab-other .icon_box p {font-size: 20px;
+                      text-align: center;
+                      word-spacing: -10px;
+                      padding-top:20px;
+                    border-bottom: 1px solid #000;}
+#tab-other .icon_box a {display: inline-block;
+                      width: 60px; height: 60px;
+                    padding-top: 20px;}
+#tab-other .app_icon a {display: inline-block;
+                      width: 176px;
+                      height: 51px;
+                     padding-top: 20px;}                      
+#tab-other .app_icon p {font-size: 20px;
+                      text-align: center;
+                      word-spacing: -10px;
+                      padding-top: 20px;
+                      border-bottom: 1px solid #000;}
+
+
+
+
+
+
+
+/* 여기부터 풋터 */
+footer {width: 98%;
+      height:150px;
+      margin: 0 auto;
+      border-top: 2px solid rgb(162, 159, 159)!important;
+      position: relative;}
+footer .footer_txt {position: absolute;
+                  right: 10px;
+                  bottom: 20px;}
+footer .footer_txt p {font-size: 12px;
+                    text-align: right;
+                    margin-bottom: 3px;
+                    word-spacing: -8px;}        
+
+  
+
+
+/* TAP */
+@media (max-width:1400px)  {
+/* 소개 */
+  #tab-es6 .about_txt p {font-size: 20px; word-spacing: -12px;} 
+  #tab-es6 .about_sv_wrap .p { font-size:25px; margin-bottom:0; line-height:80px;}
+  #tab-es6 .about_sv_wrap {width: 100%;}
+  #tab-es6 .about_sv {width: 100%;}
+  #tab-es6 .about_sv .about_sv_box {
+  width: 230px; height: 230px;
+  background-color:white;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 20px;}
+
+  #tab-es6 .about_sv .about_sv_box .about_icon 
+  {width: 100px;
+  height: 100px;
+  margin-top: 20px;}
+  #tab-es6 .about_sv .about_sv_box .about_icon img {width: 100px;}
+
+  #tab-es6 .about_sv .about_sv_box p {font-size: 15px; word-spacing: -8px;}
+  #tab-es6 .about_sv .about_sv_box p:nth-of-type(1) {margin:17px auto 10px; font-size: 20px; font-weight: bold;}
+
+  #tab-es6 .about_wrap .about_manager_wrap .MG_txt1 { font-size: 30px;}
+  #tab-es6 .about_wrap .about_manager_wrap .about_manager_box .manager_icon .MG_img_txt2
+  {font-size: 17px;
+  margin-top: 10px;
+  word-spacing: -10px;}
+
+
+
+  /* 서비스 */
+
+    #tab-react .sv_main_txt {margin-top: 80px; }
+    #tab-react .sv_main_txt p:nth-child(2){font-size: 1.9vw;}
+    #tab-react .with_sv {display: flex;
+                        flex-direction:row;
+                        width:100%;
+                        } 
+      #tab-react .with_sv .sv_box {width:33%;
+                      min-width:150px;
+                      max-height:550px;
+                      margin: 0 auto;
+                     }
+    #tab-react .with_sv .sv_box .img_box {width: 150px; height:150px;}
+
+/* 이용방법 */
+#tab-angular .h1 {left:12.5%;
+                  top:6.5%;}
+#tab-angular .use_wrap .use_box {
+  flex-direction:column-reverse;
+  margin:5% auto;
+  height: 90%;}
+#tab-angular .use_wrap .use_box .use_1 {margin-top:20px;  margin:0 auto;
+                                        }
+#tab-angular .use_wrap .use_box .use_1 .use_num {text-align: center;  margin:0 auto;}
+
+#tab-angular .use_wrap .use_box .use_1 .use_txt {text-align: center;
+                                                  margin-bottom: 30px;
+                                                  margin:0 auto;}
+#tab-angular .use_wrap .use_box .use_1 .app_icon { text-align: center;}
+
+#tab-angular .use_wrap .use_box .phone_img {margin:50px auto 30px ;
+                                            width: 35%;}
+
+#tab-angular .use_wrap .use_box .phone_img img {width: 100%;
+                                                max-width: 300px;
+                                                min-width: 250px;}
+
+.swiper-pagination {position: absolute;
+                    bottom: 6%;
+                    left: 47%;}
+
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
+                          right: 20%!important;
+                          left: auto;
+                          top:35%!important;}
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+    left:20%!important;
+    right: auto;
+    top:35%!important;}
+
+
+
+/* 매니저 모집 */
+   
+#tab-other {height: auto;
+            max-height: 800px;}
+#tab-other .manager_box {
+  width: 85%;
+  min-width: 0px;
+  height:20vw;
+  margin-top:7vw;
+  background: #fff;
+}
+
+#tab-other .manager_box p {
+  margin-top: 2.5%;
+  font-size: 4vw;
+  text-align: center;
+  color: #000;
+
+}
+#tab-other .manager_box .manager_link {
+  width: 100%;
+  height: 20vw;
+  margin: 0 auto;
+
+}
+#tab-other .manager_box .manager_link a {
+    display:block;
+    width: 20%;
+    min-width: 0;
+    height: 6vw;
+    line-height: 6.2vw;
+    color: #000;
+    border: 2px solid #66cdaa;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 2vw!important;
+    border-radius: 1.2vw;
+    margin: 2vw auto 0;
+}
+
+
+#tab-other .icon_box p {
+  font-size:18px;
+  text-align: center;
+  word-spacing: -11px;
+  margin-top: 5vw;
+  border-bottom: 1px solid #000;
+}
+
+#tab-other .icon_box {
+  width: 30%;
+  margin-top:2vw;
+}
+
+#tab-other .icon_box img {width:10vw;
+                          margin: 0 auto;
+                          max-width: 60px;}
+  #tab-other .app_icon {width: 100%;
+                        max-width:176px;}
+  #tab-other .app_icon img {width:20vw;
+  max-width:176px;
+                            }
+#tab-other .icon_box p {font-size:2vw;
+                        word-spacing: -1vw;}
+
+
+
+#tab-other .app_icon p {
+    font-size: 3vw;
+    text-align: center;
+    word-spacing: -11px;
+    border-bottom: 1px solid #000;
+
+
+}
+
+
+
+
+}
+
+
+@media screen and (max-width:801px)
+{
+
+
+
+/* 화면 높이 예비설정 */
+#top {min-height:0; height:100%;}
+#tab-es6 {min-height:0; height:100%; margin: 0 auto;}
+#tab-flexbox {min-height:0; height:100%; margin: 0 auto;}
+#tab-react {min-height:0; height:100%; margin: 0 auto;}
+#tab-angular {min-height:0; height:auto; margin: 0 auto; background-color: #fff;}
+#tab-other {min-height:0; height:100vh; margin: 0 auto;}
+
+/* 어바웃 차별화된 서비스 */
+#tab-es6 .about_sv_wrap .p {font-size: 1.5em;
+                            min-width: 0;
+                          line-height: 1.5em;}
+
+#tab-es6 .about_sv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width:75%;
+  margin: 50px auto;}
+  
+#tab-es6 .about_sv .about_sv_box {
+  width:230px; height:100%;
+  max-height: 300px;
+  background-color:white;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  }
+
+  #tab-es6 .about_sv .about_sv_box .about_icon img
+  {width:5.5em;
+  min-width: 100px;}
+
+  #tab-es6 .about_sv .about_sv_box p {margin-bottom: 20px;}
+  #tab-es6 .about_sv .about_sv_box p:nth-of-type(1) {
+    margin: 2vh auto 1vh;
+    font-size:20px;
+    max-width: 90%;
+    font-weight: bold;
+  }
+
+
+  #tab-es6 .about_wrap .about_manager_wrap .MG_txt1
+  {font-size:1.5em; width: 100%;}
+  .about_wrap .about_manager_wrap .MG_txt2 
+  {font-size: 1em;}
+/* 서비스 */
+
+#tab-react {margin:0 auto; }
+#tab-react .sv_main_txt { margin:1.5em auto;}
+#tab-react .sv_main_txt p:nth-child(1) {font-size: 1.5em;}
+#tab-react .sv_main_txt p:nth-of-type(2) {font-size:1em;
+                                            padding-top:3%;
+                                            word-spacing: -2vw;}
+
+
+#tab-react .with_sv {display: flex;
+  width:100%;
+  flex-wrap:nowrap;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top:0;} 
+  .MB_br {display: inline-block;}
+
+  #tab-react .with_sv .sv_box {width:100%;
+    min-width:320px;
+    max-height:750px;
+    margin: 3% auto;
+    overflow: hidden;
+   }
+   #tab-react .with_sv .sv_box .sv_name
+   {width:100%;
+    height: 4vh;
+    line-height:5.5vw;
+   text-align: center;
+   border-right:none;
+   font-size: 3vw;
+   margin-bottom:2vw;
+   margin: 0 auto;
+   }
+
+
+   #tab-react .with_sv .sv_txt-box {padding-top:0; margin: 0 auto; }
+  #tab-react .with_sv .sv_txt-box p{font-size:2.3vw;
+                                      min-width: 200px;
+                                      max-width: 850px;
+                                      text-align: center;
+                                      word-spacing: -0.5em;
+                                      margin: 0 auto;
+                                      margin-top: 1vw;
+                                      padding-left:2.5vw;
+                                      line-height:1.5;
+                                      background: none;}
+
+#tab-react .with_sv .view 
+{display: block; position: relative;
+width: 100px; height:30px; line-height: 34px; 
+font-size: 1.5vw; color: #000; 
+background-size: 0.5em 0.5em;
+padding-left: 8px;
+margin-left: 70px;
+text-align: center;
+margin: 1rem auto 0.5em;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/* 모바일 이용방법  */
+
+#tab-angular .h1 {left:43%; font-size: 3.5vw;
+  top:2%;}
+#tab-angular .use_wrap .use_box {
+margin:0 auto;
+height:80%;
+min-width: 0;
+min-height: 0;
+}
+#tab-angular .use_wrap .use_box .use_1 
+{margin-top:20px;  width: 100%; margin:0 auto; min-width: 0;}
+
+#tab-angular .use_wrap .use_box .use_1 .use_num {text-align: center;
+                                                margin:0 auto;   
+                                                font-size:3.2vw;
+                                                word-spacing: -1.7vw;
+                                                width: 100%;
+                                                line-height: 3.5vw;}
+
+#tab-angular .use_wrap .use_box .use_1 .use_txt {text-align: center;
+                                  word-spacing:-1.5vw;
+                                  margin-bottom: 30px;
+                                  margin:0 auto;
+                                  font-size:2.5vw;}
+#tab-angular .use_wrap .use_box .use_1 .app_icon { text-align: center;
+                                                  width: 100%;
+                                                   min-width: 0;}
+#tab-angular .use_wrap .use_box .use_1 .app_icon img {width:20vw;}
+#tab-angular .use_wrap .use_box .phone_img {margin:10vw auto 30px ;
+                                             width:35vw;}
+
+#tab-angular .use_wrap .use_box .phone_img img {width: 100%;
+                                max-width: 300px;
+                                min-width: 120px}
+
+.swiper-pagination {position: absolute;
+    bottom: 6%;
+    left: 45%;}
+
+
+
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
+                          right: 20%!important;
+                          left: auto;
+                          top:35%!important;}
+   .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+    left:20%!important;
+    right: auto;
+    top:35%!important;}
+
+.br {display: block;}
+
+/* 모바일 매니저 모집 */
+#tab-other {height:100%!important;}
+#tab-other .icon_box a {display: block;
+  width: 100%;
+  padding-top: 0;
+  margin-top: 2vw;}
+  #tab-other .icon_box a img {width:8.5vw;
+                              max-width: 60px;}
+
+  .swiper-pagination {
+    display: none;
+    }
+
+  }
+
+
+
